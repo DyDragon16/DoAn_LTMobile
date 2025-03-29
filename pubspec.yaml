@@ -1,0 +1,46 @@
+name: booky
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^2.0.16
+  pinput: ^3.0.1
+  shared_preferences: ^2.2.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  http: ^1.1.2
+  intl: ^0.19.0
+  cached_network_image: ^3.3.1
+  uuid: ^4.3.3
+  path_provider: ^2.1.5
+  image_picker: ^1.1.2
+  flutter_image_compress: ^2.4.0
+  flutter_rating_bar: ^4.0.1
+  flutter_tts: ^4.2.1
+  google_ml_kit: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/icons/
+    - assets/icons/brand_logos/
+    - assets/images/sale_banners/
