@@ -27,19 +27,21 @@ Mô tả ngắn gọn về cấu trúc của dự án để người đọc dễ
 ## Cách Cài Đặt
 
 Hướng dẫn ngắn gọn về cách cài đặt và chạy dự án:
-
-1. Clone repository:
+1. Khởi tạo database:
+   - Mở file database_booky.sql trong repository
+   - Tạo database theo nội dung có sẵn trong file
+2. Clone repository:
    ```sh
    git clone https://github.com/DyDragon16/DoAn_LTMobile.git
    cd DoAn_LTMobile
-2. Cài đặt các dependencies:
+3. Cài đặt các dependencies:
    ```sh
    flutter pub get
-3. Chạy server (nằm trong backend):
+4. Chạy server (nằm trong backend):
    ```sh
    node server.js
    npm start
-4. Chạy ứng dụng
+5. Chạy ứng dụng
    ```sh
    flutter run
 
